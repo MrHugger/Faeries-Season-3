@@ -1,0 +1,2 @@
+gamerule random_tick_speed 5000
+schedule function minecraft:random_tick_speed_zero 10s
