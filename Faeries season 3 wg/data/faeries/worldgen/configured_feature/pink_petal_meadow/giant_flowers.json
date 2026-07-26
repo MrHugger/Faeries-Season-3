@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:template",
+  "config": {
+    "templates": [
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:pink_petal_meadow/flower/large_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:pink_petal_meadow/flower/large_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:pink_petal_meadow/flower/large_3"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:pink_petal_meadow/flower/medium_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:pink_petal_meadow/flower/medium_2"
+        }
+      }
+    ]
+  }
+}

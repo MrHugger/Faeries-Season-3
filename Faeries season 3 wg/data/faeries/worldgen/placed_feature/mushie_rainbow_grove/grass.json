@@ -1,16 +1,16 @@
 {
-  "feature": "faeries:sunflower",
+  "feature": "faeries:mushie_rainbow_grove/grass",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 256
+      "count": 512
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING"
+      "heightmap": "WORLD_SURFACE_WG"
     },
     {
       "type": "minecraft:biome"

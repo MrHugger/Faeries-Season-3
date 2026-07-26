@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      },
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "offset": [0,-1,0],
+            "blocks": "minecraft:farmland"
+          },
+          "then": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:wheat",
+                  "Properties": {
+                    "age": "0"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:wheat",
+                  "Properties": {
+                    "age": "1"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:wheat",
+                  "Properties": {
+                    "age": "2"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:wheat",
+                  "Properties": {
+                    "age": "3"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:wheat",
+                  "Properties": {
+                    "age": "4"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:wheat",
+                  "Properties": {
+                    "age": "5"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:wheat",
+                  "Properties": {
+                    "age": "6"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:wheat",
+                  "Properties": {
+                    "age": "7"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "radius": 3,
+    "half_height": 1,
+    "target": {
+      "type": "minecraft:matching_block_tag",
+      "tag": "minecraft:air"
+    }
+  }
+}

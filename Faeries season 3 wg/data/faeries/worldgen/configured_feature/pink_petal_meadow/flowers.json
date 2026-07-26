@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature": "faeries:simple_block/pink_petal",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.875,
+        "feature": {
+          "feature": "faeries:simple_block/pink_tulip",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "faeries:simple_block/peony",
+      "placement": []
+    }
+  }
+}

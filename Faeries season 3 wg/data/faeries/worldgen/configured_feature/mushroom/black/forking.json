@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [],
+    "below_trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:bush_foliage_placer",
+      "offset": 3,
+      "radius": 3,
+      "height": 3
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:black_wool"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:mud"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:blackstone"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:polished_blackstone"
+          }
+        }
+      ]
+    },
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 1
+    },
+    "trunk_placer": {
+      "type": "minecraft:forking_trunk_placer",
+      "base_height": 4,
+      "height_rand_a": 2,
+      "height_rand_b": 2
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:mushroom_stem"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:stripped_pale_oak_wood",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:smooth_quartz"
+          }
+        }
+      ]
+    }
+  }
+}

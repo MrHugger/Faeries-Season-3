@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:huge_brown_mushroom",
+  "config": {
+    "cap_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:cyan_wool"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:oxidized_copper"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:prismarine"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:stripped_warped_hyphae",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:warped_planks"
+          }
+        }
+      ]
+    },
+    "foliage_radius": 3,
+    "stem_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:mushroom_stem"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:stripped_pale_oak_wood",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:smooth_quartz"
+          }
+        }
+      ]
+    },
+    "can_place_on": {
+      "type": "minecraft:true"
+    }
+  }
+}

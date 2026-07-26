@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:sequence",
+  "config": {
+    "features": [
+      {
+        "feature": "faeries:vegetation_patch/farmland",
+        "placement": []
+      },
+      {
+        "feature": "faeries:simple_block/water",
+        "placement": [
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": -1
+          }
+        ]
+      },
+      {
+        "feature": "faeries:disk/updater_dirt",
+        "placement": [
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": -2
+          }
+        ]
+      },
+      {
+        "feature": "faeries:disk/wheat_placer",
+        "placement": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "faeries:mushroom/magenta/bending",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/magenta/brown",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/magenta/cherry",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/magenta/forking",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/magenta/mangrove",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/magenta/red",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/magenta/straight",
+        "placement": []
+      }
+    ]
+  }
+}

@@ -25,7 +25,8 @@
     [],
     [
       "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_surface",
+      "faeries:sunblossom_meadow/lakes"
     ],
     [
       "minecraft:amethyst_geode"
@@ -77,11 +78,11 @@
     ],
     [
       "minecraft:glow_lichen",
+      "faeries:sunblossom_meadow/wheat",
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_grass_plain",
-      "faeries:sunflower",
-      "minecraft:flower_cherry",
-      "minecraft:trees_cherry"
+      "faeries:sunblossom_meadow/trees",
+      "faeries:sunblossom_meadow/flowers"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "faeries:mushroom/red/all",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/orange/all",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/yellow/all",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/lime/all",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/cyan/all",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/blue/all",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/magenta/all",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/black/all",
+        "placement": []
+      },
+      {
+        "feature": "faeries:mushroom/brown/all",
+        "placement": []
+      }
+    ]
+  }
+}
