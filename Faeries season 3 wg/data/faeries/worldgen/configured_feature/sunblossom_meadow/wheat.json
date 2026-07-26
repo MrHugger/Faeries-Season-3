@@ -3,11 +3,7 @@
   "config": {
     "features": [
       {
-        "feature": "faeries:vegetation_patch/farmland",
-        "placement": []
-      },
-      {
-        "feature": "faeries:simple_block/water",
+        "feature": "faeries:spring/water_5_1",
         "placement": [
           {
             "type": "minecraft:random_offset",
@@ -17,14 +13,8 @@
         ]
       },
       {
-        "feature": "faeries:disk/updater_dirt",
-        "placement": [
-          {
-            "type": "minecraft:random_offset",
-            "xz_spread": 0,
-            "y_spread": -2
-          }
-        ]
+        "feature": "faeries:vegetation_patch/farmland",
+        "placement": []
       },
       {
         "feature": "faeries:disk/wheat_placer",

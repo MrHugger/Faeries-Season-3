@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:spring_feature",
+  "config": {
+    "state": {
+      "Name": "minecraft:water"
+    },
+    "rock_count": 5,
+    "hole_count": 0,
+    "requires_block_below": true,
+    "valid_blocks": "#faeries:spring/valid_block"
+  }
+}

@@ -36,7 +36,8 @@
                 "type": "minecraft:matching_blocks",
                 "offset": [0,1,0],
                 "blocks": [
-                  "minecraft:amethyst_block"
+                  "minecraft:amethyst_block",
+                  "minecraft:budding_amethyst"
                 ]
               },
               "then": {
@@ -74,7 +75,8 @@
                 "type": "minecraft:matching_blocks",
                 "offset": [0,-1,0],
                 "blocks": [
-                  "minecraft:amethyst_block"
+                  "minecraft:amethyst_block",
+                  "minecraft:budding_amethyst"
                 ]
               },
               "then": {
@@ -143,7 +145,8 @@
                 "type": "minecraft:matching_blocks",
                 "offset": [0,1,0],
                 "blocks": [
-                  "minecraft:amethyst_block"
+                  "minecraft:amethyst_block",
+                  "minecraft:budding_amethyst"
                 ]
               },
               "then": {
@@ -213,13 +216,19 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 2,
+          "weight": 66,
           "data": {
             "Name": "minecraft:amethyst_block"
           }
         },
         {
           "weight": 1,
+          "data": {
+            "Name": "minecraft:budding_amethyst"
+          }
+        },
+        {
+          "weight": 33,
           "data": {
             "Name": "minecraft:air"
           }
