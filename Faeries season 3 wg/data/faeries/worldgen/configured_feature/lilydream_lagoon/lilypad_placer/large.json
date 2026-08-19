@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:sequence",
+  "config": {
+    "features": [
+      {
+        "feature": "faeries:lilydream_lagoon/lilypad/large",
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [10,0,0],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [-10,0,0],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [0,0,10],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [0,0,-10],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [8,0,8],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [-8,0,8],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [8,0,-8],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [-8,0,-8],
+                  "fluids": "minecraft:water"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "feature": "faeries:lilydream_lagoon/decor_selector/large",
+        "placement": [
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": 1
+          }
+        ]
+      }
+    ]
+  }
+}

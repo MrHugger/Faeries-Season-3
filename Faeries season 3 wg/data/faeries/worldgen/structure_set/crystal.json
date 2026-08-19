@@ -1,0 +1,37 @@
+{
+  "structures": [
+    {
+      "structure": "faeries:crystal/blue/large",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:crystal/blue/medium",
+      "weight": 2
+    },
+    {
+      "structure": "faeries:crystal/blue/small",
+      "weight": 2
+    },
+    {
+      "structure": "faeries:crystal/amethyst/large",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:crystal/amethyst/medium",
+      "weight": 4
+    },
+    {
+      "structure": "faeries:crystal/amethyst/small",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 3,
+    "separation": 1,
+    "spread_type": "linear",
+    "salt": 98700001,
+    "frequency_reduction_method": "legacy_type_3",
+    "frequency": 0.7
+  }
+}

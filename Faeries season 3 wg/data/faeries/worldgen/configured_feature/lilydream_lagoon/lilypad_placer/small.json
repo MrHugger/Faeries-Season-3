@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:sequence",
+  "config": {
+    "features": [
+      {
+        "feature": "faeries:lilydream_lagoon/lilypad/small",
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [6,0,0],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [-6,0,0],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [0,0,6],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [0,0,-6],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [5,0,5],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [-5,0,5],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [5,0,-5],
+                  "fluids": "minecraft:water"
+                },
+                {
+                  "type": "minecraft:matching_fluids",
+                  "offset": [-5,0,-5],
+                  "fluids": "minecraft:water"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "feature": "faeries:lilydream_lagoon/decor_selector/small",
+        "placement": [
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": 1
+          }
+        ]
+      }
+    ]
+  }
+}

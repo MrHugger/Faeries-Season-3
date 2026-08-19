@@ -1,0 +1,217 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:dirt"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:dirt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:grass_block"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:stone"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:gravel"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:granite"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:diorite"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:andesite"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:tuff"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:tuff"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:calcite"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:smooth_basalt"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_basalt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:amethyst_block"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:amethyst_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:coal_ore"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:coal_ore"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:iron_ore"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:iron_ore"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:copper_ore"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:copper_ore"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:sand"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:clay"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "faeries:crystal"
+          },
+          "output_state": {
+            "Name": "minecraft:clay"
+          }
+        }
+      ]
+    }
+  ]
+}

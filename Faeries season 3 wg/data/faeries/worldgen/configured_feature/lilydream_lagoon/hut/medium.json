@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:template",
+  "config": {
+    "templates": [
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/hut/medium_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/hut/medium_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/hut/medium_3"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/hut/medium_4"
+        }
+      }
+    ]
+  }
+}

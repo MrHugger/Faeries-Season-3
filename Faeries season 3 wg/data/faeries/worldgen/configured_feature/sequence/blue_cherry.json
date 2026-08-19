@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:sequence",
+  "config": {
+    "features": [
+      {
+        "feature": "faeries:tree/moonlight_forest/blue_cherry",
+        "placement": []
+      },
+      {
+        "feature": "faeries:block_column/blue_lantern",
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 10
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+              "type": "minecraft:trapezoid",
+              "min": -6,
+              "max": 6,
+              "plateau": 0
+            },
+            "y_spread": 3
+          },
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "up",
+            "max_steps": 5,
+            "target_condition": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:stripped_warped_hyphae",
+                    "minecraft:warped_wart_block"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_block_tag",
+                  "offset": [0,-1,0],
+                  "tag": "minecraft:air"
+                },
+                {
+                  "type": "minecraft:matching_block_tag",
+                  "offset": [0,-2,0],
+                  "tag": "minecraft:air"
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": -1
+          }
+        ]
+      }
+    ]
+  }
+}

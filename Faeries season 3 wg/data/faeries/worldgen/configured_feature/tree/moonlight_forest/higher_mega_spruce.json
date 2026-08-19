@@ -1,0 +1,187 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "below_trunk_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:cannot_replace_below_tree_trunk"
+            }
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dirt"
+            }
+          }
+        }
+      ]
+    },
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 1,
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:rule_based_state_provider",
+          "rules": [
+            {
+              "if_true": {
+                "type": "minecraft:matching_blocks",
+                "offset": [0,1,0],
+                "blocks": "minecraft:moss_block"
+              },
+              "then": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:spruce_hanging_sign",
+                      "Properties": {
+                        "attached": "false",
+                        "rotation": "0"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:spruce_hanging_sign",
+                      "Properties": {
+                        "attached": "false",
+                        "rotation": "1"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:spruce_hanging_sign",
+                      "Properties": {
+                        "attached": "false",
+                        "rotation": "2"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:spruce_hanging_sign",
+                      "Properties": {
+                        "attached": "false",
+                        "rotation": "3"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:spruce_hanging_sign",
+                      "Properties": {
+                        "attached": "false",
+                        "rotation": "4"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:spruce_hanging_sign",
+                      "Properties": {
+                        "attached": "false",
+                        "rotation": "5"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:spruce_hanging_sign",
+                      "Properties": {
+                        "attached": "false",
+                        "rotation": "6"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:spruce_hanging_sign",
+                      "Properties": {
+                        "attached": "false",
+                        "rotation": "7"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "directions": [
+          "down"
+        ]
+      }
+    ],
+    "foliage_placer": {
+      "type": "minecraft:mega_pine_foliage_placer",
+      "crown_height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 15,
+        "min_inclusive": 13
+      },
+      "offset": 0,
+      "radius": 0
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:spruce_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:moss_block"
+          }
+        }
+      ]
+    },
+    "ignore_vines": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "lower_size": 1,
+      "upper_size": 2
+    },
+    "trunk_placer": {
+      "type": "minecraft:giant_trunk_placer",
+      "base_height": 17,
+      "height_rand_a": 2,
+      "height_rand_b": 8
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:spruce_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:template",
+  "config": {
+    "templates": [
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/lilypad/small_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/lilypad/small_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/lilypad/small_3"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/lilypad/small_4"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/lilypad/small_5"
+        }
+      }
+    ]
+  }
+}

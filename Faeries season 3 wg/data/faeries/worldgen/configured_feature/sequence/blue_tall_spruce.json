@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:sequence",
+  "config": {
+    "features": [
+      {
+        "feature": "faeries:tree/moonlight_forest/blue_tall_spruce",
+        "placement": []
+      },
+      {
+        "feature": "faeries:disk/prismarine_placer",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE"
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": -2
+          }
+        ]
+      },
+      {
+        "feature": "faeries:disk/prismarine_bricks_placer",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE"
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": -6
+          }
+        ]
+      },
+      {
+        "feature": "faeries:disk/stripped_warped_hyphae_placer",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE"
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": -10
+          }
+        ]
+      },
+      {
+        "feature": "faeries:disk/warped_wart_block_placer",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE"
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": -14
+          }
+        ]
+      }
+    ]
+  }
+}

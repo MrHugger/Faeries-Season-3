@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": "faeries:lilydream_lagoon/lilypad_placer/large",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.429,
+        "feature": {
+          "feature": "faeries:lilydream_lagoon/lilypad_placer/medium",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "faeries:lilydream_lagoon/lilypad_placer/small",
+      "placement": []
+    }
+  }
+}

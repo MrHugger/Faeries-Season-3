@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature":  "faeries:simple_block/cornflower",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature":  "faeries:simple_block/blue_orchid",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature":  "faeries:simple_block/nether_sprouts",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "faeries:simple_block/warped_roots",
+      "placement": []
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "small",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "faeries:crystal/amethyst/small_1",
+        "processors": "faeries:terrain_saver"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "faeries:crystal/amethyst/small_2",
+        "processors": "faeries:terrain_saver"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "faeries:crystal/amethyst/small_3",
+        "processors": "faeries:terrain_saver"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "faeries:crystal/amethyst/small_4",
+        "processors": "faeries:terrain_saver"
+      }
+    }
+  ],
+  "fallback": "faeries:crystal/amethyst/small"
+}

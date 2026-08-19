@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:template",
+  "config": {
+    "templates": [
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/bellflower/light_blue_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/bellflower/light_blue_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/bellflower/light_blue_3"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/bellflower/light_blue_4"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/bellflower/pink_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/bellflower/pink_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/bellflower/pink_3"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:lilydream_lagoon/bellflower/pink_4"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "large",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "faeries:crystal/amethyst/large_1",
+        "processors": "faeries:terrain_saver"
+      }
+    }
+  ],
+  "fallback": "faeries:crystal/amethyst/large"
+}

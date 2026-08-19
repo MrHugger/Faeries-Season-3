@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": "faeries:lilydream_lagoon/frog/medium",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": "faeries:lilydream_lagoon/lotus_flower/large",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature": "faeries:lilydream_lagoon/hut/large",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "faeries:no_op",
+      "placement": []
+    }
+  }
+}
