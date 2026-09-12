@@ -33,8 +33,7 @@
                 {
                   "type": "minecraft:matching_blocks",
                   "blocks": [
-                    "minecraft:stripped_warped_hyphae",
-                    "minecraft:warped_wart_block"
+                    "minecraft:oak_leaves"
                   ]
                 },
                 {

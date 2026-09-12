@@ -1,0 +1,24 @@
+{
+  "name": "sunflower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "faeries:hut/sunflower_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "faeries:hut/sunflower_2",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

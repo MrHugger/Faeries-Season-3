@@ -73,7 +73,9 @@
     [
       "minecraft:glow_lichen",
       "minecraft:forest_flowers",
-      "minecraft:trees_birch_and_oak_leaf_litter",
+      "faeries:rainbow_fairy_forest/giant_flowers",
+      "faeries:rainbow_fairy_forest/mushrooms",
+      "faeries:rainbow_fairy_forest/trees",
       "minecraft:patch_bush",
       "minecraft:flower_default",
       "minecraft:patch_grass_forest",
@@ -84,8 +86,7 @@
       "minecraft:patch_firefly_bush_near_water"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "faeries:marker_cyan"
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

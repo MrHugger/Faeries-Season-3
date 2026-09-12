@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:template",
+  "config": {
+    "templates": [
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:honeyhollow/bee_air_baloon/angry"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:honeyhollow/bee_air_baloon/brown"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:honeyhollow/bee_air_baloon/normal"
+        }
+      },
+      {
+        "weight": 5,
+        "data": {
+          "id": "faeries:honeyhollow/big_bee/angry"
+        }
+      },
+      {
+        "weight": 5,
+        "data": {
+          "id": "faeries:honeyhollow/big_bee/normal"
+        }
+      },
+      {
+        "weight": 5,
+        "data": {
+          "id": "faeries:honeyhollow/big_bee/small"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "faeries:tree/rainbow_fairy_forest/mega_spruce_red",
+        "placement": []
+      },
+      {
+        "feature": "faeries:tree/rainbow_fairy_forest/mega_spruce_orange",
+        "placement": []
+      },
+      {
+        "feature": "faeries:tree/rainbow_fairy_forest/mega_spruce_yellow",
+        "placement": []
+      },
+      {
+        "feature": "faeries:tree/rainbow_fairy_forest/mega_spruce_lime",
+        "placement": []
+      },
+      {
+        "feature": "faeries:tree/rainbow_fairy_forest/mega_spruce_cyan",
+        "placement": []
+      },
+      {
+        "feature": "faeries:tree/rainbow_fairy_forest/mega_spruce_blue",
+        "placement": []
+      },
+      {
+        "feature": "faeries:tree/rainbow_fairy_forest/mega_spruce_magenta",
+        "placement": []
+      }
+    ]
+  }
+}

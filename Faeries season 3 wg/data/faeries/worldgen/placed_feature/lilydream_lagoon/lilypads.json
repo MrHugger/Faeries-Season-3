@@ -2,20 +2,8 @@
   "feature": "faeries:lilydream_lagoon/lilypads",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "data": 0,
-            "weight": 1
-          },
-          {
-            "data": 1,
-            "weight": 1
-          }
-        ]
-      }
+      "type": "minecraft:rarity_filter",
+      "chance": 2
     },
     {
       "type": "minecraft:in_square"

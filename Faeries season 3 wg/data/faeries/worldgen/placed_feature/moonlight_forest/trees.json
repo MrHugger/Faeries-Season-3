@@ -26,7 +26,7 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR_WG"
+      "heightmap": "OCEAN_FLOOR"
     },
     {
       "type": "minecraft:biome"
@@ -34,13 +34,26 @@
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
-        "type": "minecraft:would_survive",
-        "state": {
-          "Name": "minecraft:spruce_sapling",
-          "Properties": {
-            "stage": "0"
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:would_survive",
+            "state": {
+              "Name": "minecraft:spruce_sapling",
+              "Properties": {
+                "stage": "0"
+              }
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [0,-1,0],
+              "blocks": "minecraft:moss_block"
+            }
           }
-        }
+        ]
       }
     }
   ]

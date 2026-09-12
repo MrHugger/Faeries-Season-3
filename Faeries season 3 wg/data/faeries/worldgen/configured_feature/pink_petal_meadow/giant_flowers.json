@@ -5,31 +5,37 @@
       {
         "weight": 1,
         "data": {
-          "id": "faeries:pink_petal_meadow/flower/large_1"
+          "id": "faeries:flower/pink/large_1"
         }
       },
       {
         "weight": 1,
         "data": {
-          "id": "faeries:pink_petal_meadow/flower/large_2"
+          "id": "faeries:flower/pink/large_2"
         }
       },
       {
         "weight": 1,
         "data": {
-          "id": "faeries:pink_petal_meadow/flower/large_3"
+          "id": "faeries:flower/pink/large_3"
         }
       },
       {
         "weight": 1,
         "data": {
-          "id": "faeries:pink_petal_meadow/flower/medium_1"
+          "id": "faeries:flower/pink/large_4"
         }
       },
       {
         "weight": 1,
         "data": {
-          "id": "faeries:pink_petal_meadow/flower/medium_2"
+          "id": "faeries:flower/pink/medium_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/pink/medium_2"
         }
       }
     ]

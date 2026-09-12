@@ -17,7 +17,7 @@
   "downfall": 0.8,
   "effects": {
     "water_color": "#0e4ecf",
-    "foliage_color": "#f0b428"
+    "foliage_color": "#ff7514"
   },
   "features": [
     [],
@@ -77,13 +77,13 @@
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_grass_meadow",
-      "minecraft:flower_meadow",
-      "minecraft:trees_meadow",
-      "minecraft:wildflowers_meadow"
+      "faeries:honeyhollow/giant_flowers",
+      "faeries:honeyhollow/trees",
+      "faeries:honeyhollow/flowers",
+      "faeries:honeyhollow/bees"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "faeries:marker_yellow"
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

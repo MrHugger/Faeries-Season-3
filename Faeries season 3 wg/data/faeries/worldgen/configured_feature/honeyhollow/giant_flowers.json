@@ -1,0 +1,151 @@
+{
+  "type": "minecraft:template",
+  "config": {
+    "templates": [
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/blue/large_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/blue/large_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/blue/large_3"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/blue/medium_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/blue/medium_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/magenta/large_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/orange/large_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/orange/large_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/orange/medium_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/pink/large_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/pink/large_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/pink/large_3"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/pink/large_4"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/pink/medium_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/pink/medium_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/purple/medium_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/white/large_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/white/medium_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/white/medium_2"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/white/medium_3"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/white/medium_4"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/yellow/large_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/yellow/medium_1"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "id": "faeries:flower/yellow/medium_2"
+        }
+      }
+    ]
+  }
+}

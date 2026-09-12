@@ -1,0 +1,23 @@
+{
+  "name": "amethyst_block",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "feature": {
+          "feature": "faeries:block_column/amethyst_block",
+          "placement": [
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": 0,
+              "y_spread": -1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "fallback": "faeries:feature/block_column/amethyst_block"
+}

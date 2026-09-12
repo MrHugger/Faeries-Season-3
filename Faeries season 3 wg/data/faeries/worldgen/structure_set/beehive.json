@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "faeries:beehive",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "spread_type": "linear",
+    "salt": 98700002,
+    "frequency_reduction_method": "legacy_type_3",
+    "frequency": 0.7,
+    "exclusion_zone": {
+      "other_set": "faeries:medium",
+      "chunk_count": 2
+    }
+  }
+}

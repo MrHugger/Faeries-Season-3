@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "faeries:rainbow_fairy_forest"
+    "faeries:honeyhollow",
+    "faeries:rainbow_fairy_forest",
+    "faeries:amethystia_wilds"
   ]
 }

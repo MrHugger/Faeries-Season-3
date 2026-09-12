@@ -1,0 +1,57 @@
+{
+  "structures": [
+    {
+      "structure": "faeries:amethyst_tower",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:campsite/cherry",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:campsite/mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:campsite/pink",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:hut/flower",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:hut/mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:hut/sunflower",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:rainbow",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:sky_island",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:windmill/pink",
+      "weight": 1
+    },
+    {
+      "structure": "faeries:beehive",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 12,
+    "spread_type": "linear",
+    "salt": 98700020,
+    "frequency_reduction_method": "default",
+    "frequency": 1
+  }
+}

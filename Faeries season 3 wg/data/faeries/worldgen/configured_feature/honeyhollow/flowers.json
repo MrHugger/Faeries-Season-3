@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.065,
+        "feature": {
+          "feature":  "faeries:simple_block/dandelion",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.07,
+        "feature": {
+          "feature":  "faeries:simple_block/poppy",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.075,
+        "feature": {
+          "feature":  "faeries:simple_block/blue_orchid",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.08,
+        "feature": {
+          "feature":  "faeries:simple_block/allium",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.087,
+        "feature": {
+          "feature":  "faeries:simple_block/azure_bluet",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.095,
+        "feature": {
+          "feature":  "faeries:simple_block/red_tulip",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.105,
+        "feature": {
+          "feature":  "faeries:simple_block/orange_tulip",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.117,
+        "feature": {
+          "feature":  "faeries:simple_block/white_tulip",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.133,
+        "feature": {
+          "feature":  "faeries:simple_block/pink_tulip",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.153,
+        "feature": {
+          "feature":  "faeries:simple_block/oxeye_daisy",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.181,
+        "feature": {
+          "feature":  "faeries:simple_block/cornflower",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.22,
+        "feature": {
+          "feature":  "faeries:simple_block/lily_of_the_valley",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.283,
+        "feature": {
+          "feature":  "faeries:simple_block/pink_petal",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.394,
+        "feature": {
+          "feature":  "minecraft:wildflower",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature":  "minecraft:sunflower",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.333,
+        "feature": {
+          "feature":  "faeries:simple_block/lilac",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature":  "faeries:simple_block/rose_bush",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "faeries:simple_block/peony",
+      "placement": []
+    }
+  }
+}

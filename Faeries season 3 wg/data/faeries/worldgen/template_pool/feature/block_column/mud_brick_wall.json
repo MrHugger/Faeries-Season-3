@@ -1,0 +1,177 @@
+{
+  "name": "mud_brick_wall",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "projection": "rigid",
+        "elements": [
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": {
+              "feature": "faeries:block_column/mud_brick_wall",
+              "placement": [
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -1
+                }
+              ]
+            }
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": {
+              "feature": "faeries:block_column/mud_brick_wall_updater",
+              "placement": [
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -5
+                }
+              ]
+            }
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": {
+              "feature": "faeries:block_column/mud_brick_wall_updater",
+              "placement": [
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -14
+                }
+              ]
+            }
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": {
+              "feature": "faeries:block_column/mud_brick_wall_updater",
+              "placement": [
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -7
+                }
+              ]
+            }
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": {
+              "feature": "faeries:block_column/mud_brick_wall_updater",
+              "placement": [
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                }
+              ]
+            }
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": {
+              "feature": "faeries:block_column/mud_brick_wall_updater",
+              "placement": [
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -9
+                }
+              ]
+            }
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": {
+              "feature": "faeries:block_column/mud_brick_wall_updater",
+              "placement": [
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -2
+                }
+              ]
+            }
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": {
+              "feature": "faeries:block_column/mud_brick_wall_updater",
+              "placement": [
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -16
+                },
+                {
+                  "type": "minecraft:random_offset",
+                  "xz_spread": 0,
+                  "y_spread": -11
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "faeries:feature/block_column/mud_brick_wall"
+}
