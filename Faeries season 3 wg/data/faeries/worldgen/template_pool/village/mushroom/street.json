@@ -1,0 +1,105 @@
+{
+  "name": "street",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/corner_01",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/corner_02",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/straight_01",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/straight_02",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/straight_03",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/straight_04",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/crossroad_01",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/crossroad_02",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/crossroad_03",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/square_01",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/street/turn_01",
+        "processors": "faeries:village/street_mushroom",
+        "projection": "terrain_matching"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "faeries:village/mushroom/terminator"
+}

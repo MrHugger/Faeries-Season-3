@@ -10,7 +10,7 @@
   },
   "start_pool": "faeries:crystal/blue/large",
   "start_jigsaw_name": "faeries:start",
-  "step": "vegetal_decoration",
+  "step": "underground_structures",
   "terrain_adaptation": "none",
   "use_expansion_hack": false
 }

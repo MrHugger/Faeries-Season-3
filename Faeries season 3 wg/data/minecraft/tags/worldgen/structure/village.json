@@ -1,5 +1,8 @@
 {
   "replace": false,
   "values": [
+    "faeries:village/amethyst",
+    "faeries:village/cherry",
+    "faeries:village/mushroom"
   ]
 }

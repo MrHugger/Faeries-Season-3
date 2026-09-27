@@ -1,0 +1,42 @@
+{
+  "name": "terminator",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/terminator/terminator_01",
+        "processors": "faeries:village/street_cherry",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/terminator/terminator_02",
+        "processors": "faeries:village/street_cherry",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/terminator/terminator_03",
+        "processors": "faeries:village/street_cherry",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "faeries:village/common/terminator/terminator_04",
+        "processors": "faeries:village/street_cherry",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}
