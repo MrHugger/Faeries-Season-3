@@ -1,8 +1,11 @@
 {
   "replace": false,
   "values": [
+    "faeries:amethystia_wilds",
+    "faeries:blossom_forest",
     "faeries:honeyhollow",
+    "faeries:lilac_bloom",
     "faeries:rainbow_fairy_forest",
-    "faeries:amethystia_wilds"
+    "faeries:roseveil"
   ]
 }

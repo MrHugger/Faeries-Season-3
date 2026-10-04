@@ -2,11 +2,15 @@
   "replace": false,
   "values": [
     "faeries:amethystia_wilds",
+    "faeries:blossom_forest",
+    "faeries:buttercup_grove",
     "faeries:honeyhollow",
+    "faeries:lilac_bloom",
     "faeries:moonlight_forest",
     "faeries:mushie_rainbow_grove",
     "faeries:pink_petal_meadow",
     "faeries:rainbow_fairy_forest",
+    "faeries:roseveil",
     "faeries:sunblossom_meadow"
   ]
 }

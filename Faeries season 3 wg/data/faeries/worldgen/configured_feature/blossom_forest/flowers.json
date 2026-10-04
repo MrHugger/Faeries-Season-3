@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature":  "faeries:simple_block/pink_petal",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.357,
+        "feature": {
+          "feature":  "faeries:simple_block/pink_tulip",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.222,
+        "feature": {
+          "feature":  "faeries:simple_block/cactus_flower",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.857,
+        "feature": {
+          "feature":  "faeries:simple_block/small_dripleaf",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature":  "faeries:simple_block/azalea",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "faeries:simple_block/flowering_azalea",
+      "placement": []
+    }
+  }
+}

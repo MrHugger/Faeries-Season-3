@@ -15,7 +15,8 @@
     [],
     [
       "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_surface",
+      "faeries:buttercup_grove/lakes"
     ],
     [
       "minecraft:amethyst_geode"
@@ -64,20 +65,19 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
+      "faeries:buttercup_grove/rocks",
+      "faeries:buttercup_grove/bushes",
       "minecraft:patch_bush",
-      "minecraft:trees_plains",
-      "minecraft:flower_plains",
-      "minecraft:patch_grass_plain",
+      "faeries:buttercup_grove/grass",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "minecraft:patch_firefly_bush_near_water",
+      "faeries:buttercup_grove/flowers"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "faeries:marker_yellow"
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

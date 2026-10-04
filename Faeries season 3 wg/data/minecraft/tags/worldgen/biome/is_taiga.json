@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "faeries:blossom_forest",
     "faeries:moonlight_forest"
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature":  "minecraft:red_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.438,
+        "feature": {
+          "feature":  "faeries:simple_block/poppy",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.778,
+        "feature": {
+          "feature":  "faeries:simple_block/red_tulip",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "faeries:simple_block/rose_bush",
+      "placement": []
+    }
+  }
+}

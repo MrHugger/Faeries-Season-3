@@ -16,7 +16,9 @@
   ],
   "downfall": 0.6,
   "effects": {
-    "water_color": "#3f76e4"
+    "water_color": "#3f76e4",
+    "grass_color": "#cea2fd",
+    "foliage_color": "#cea2fd"
   },
   "features": [
     [],
@@ -71,12 +73,10 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:forest_flowers",
-      "minecraft:wildflowers_birch_forest",
-      "minecraft:birch_tall",
+      "faeries:lilac_bloom/trees",
       "minecraft:patch_bush",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
+      "faeries:lilac_bloom/flowers",
+      "faeries:lilac_bloom/grass",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
@@ -84,8 +84,7 @@
       "minecraft:patch_firefly_bush_near_water"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "faeries:marker_cyan"
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "faeries:tree/lilac_bloom/oval_oak_birch_bees_0002",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.00625,
+        "feature": {
+          "feature": "minecraft:fallen_super_birch_tree",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": "faeries:tree/lilac_bloom/oval_cherry_birch_bees_0002",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.0125,
+        "feature": {
+          "feature": "minecraft:fallen_birch_tree",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

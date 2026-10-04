@@ -16,13 +16,15 @@
   ],
   "downfall": 0.6,
   "effects": {
-    "water_color": "#3f76e4"
+    "water_color": "#3f76e4",
+    "foliage_color": "#f13d49"
   },
   "features": [
     [],
     [
       "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_surface",
+      "faeries:roseveil/lakes"
     ],
     [
       "minecraft:amethyst_geode"
@@ -71,11 +73,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:forest_flowers",
-      "minecraft:wildflowers_birch_forest",
-      "minecraft:trees_birch",
+      "faeries:roseveil/trees",
       "minecraft:patch_bush",
-      "minecraft:flower_default",
+      "faeries:roseveil/flowers",
       "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
@@ -84,8 +84,7 @@
       "minecraft:patch_firefly_bush_near_water"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "faeries:marker_red"
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

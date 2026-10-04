@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "faeries:tree/blossom_forest/pink_pale_spruce",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.33333334,
+        "feature": {
+          "feature": "faeries:tree/blossom_forest/pink_pale_pine",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.0125,
+        "feature": {
+          "feature": "faeries:fallen_tree/pale_oak",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

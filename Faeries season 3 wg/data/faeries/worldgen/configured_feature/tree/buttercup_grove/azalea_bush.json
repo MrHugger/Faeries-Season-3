@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size"
+    },
+    "below_trunk_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": []
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:azalea_leaves",
+            "Properties": {
+              "persistent": "true"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:flowering_azalea_leaves",
+            "Properties": {
+              "persistent": "true"
+            }
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:azalea_leaves",
+            "Properties": {
+              "persistent": "true"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:flowering_azalea_leaves",
+            "Properties": {
+              "persistent": "true"
+            }
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 1,
+      "height_rand_a": 0,
+      "height_rand_b": 0
+    },
+    "foliage_placer": {
+      "type": "minecraft:pine_foliage_placer",
+      "radius": 1,
+      "offset": 0,
+      "height": 1
+    },
+    "decorators": []
+  }
+}
