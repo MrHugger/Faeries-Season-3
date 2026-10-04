@@ -1,1 +1,0 @@
-gamerule random_tick_speed 0
